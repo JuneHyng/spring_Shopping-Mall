@@ -1,0 +1,166 @@
+[09:32:56][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[09:32:56][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Tue Sep 27 09:32:56 KST 2022]; root of context hierarchy
+[09:32:56][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/mybatis-context.xml]
+[09:32:57][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[09:32:57][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 1198 ms
+[09:32:57][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[09:32:58][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 09:32:58 KST 2022]; parent: Root WebApplicationContext
+[09:32:58][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[09:32:58][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[09:32:58][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/download],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[09:32:58][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/thumbnails.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.thumbnails(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[09:32:58][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/* || /main/main.do],methods=[POST || GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.himedia.jbshop.main.MainController.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[09:32:58][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 09:32:58 KST 2022]; parent: Root WebApplicationContext
+[09:32:58][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 09:32:58 KST 2022]; parent: Root WebApplicationContext
+[09:32:58][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[09:32:58][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 972 ms
+[10:20:05][INFO ](AbstractApplicationContext.java:862)-Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 09:32:58 KST 2022]; parent: Root WebApplicationContext
+[10:20:05][INFO ](AbstractApplicationContext.java:862)-Closing Root WebApplicationContext: startup date [Tue Sep 27 09:32:56 KST 2022]; root of context hierarchy
+[10:26:41][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[10:26:42][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Tue Sep 27 10:26:42 KST 2022]; root of context hierarchy
+[10:26:42][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/mybatis-context.xml]
+[10:26:42][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[10:26:43][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 1136 ms
+[10:26:43][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[10:26:43][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 10:26:43 KST 2022]; parent: Root WebApplicationContext
+[10:26:43][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[10:26:43][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[10:26:43][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/download],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[10:26:43][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/thumbnails.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.thumbnails(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[10:26:43][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/* || /main/main.do],methods=[POST || GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.himedia.jbshop.main.MainController.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[10:26:43][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 10:26:43 KST 2022]; parent: Root WebApplicationContext
+[10:26:43][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 10:26:43 KST 2022]; parent: Root WebApplicationContext
+[10:26:44][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[10:26:44][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 1032 ms
+[10:33:19][INFO ](AbstractApplicationContext.java:862)-Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 10:26:43 KST 2022]; parent: Root WebApplicationContext
+[10:33:19][INFO ](AbstractApplicationContext.java:862)-Closing Root WebApplicationContext: startup date [Tue Sep 27 10:26:42 KST 2022]; root of context hierarchy
+[12:24:19][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[12:24:19][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Tue Sep 27 12:24:19 KST 2022]; root of context hierarchy
+[12:24:19][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/mybatis-context.xml]
+[12:24:20][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[12:24:20][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 1220 ms
+[12:24:20][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[12:24:20][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:24:20 KST 2022]; parent: Root WebApplicationContext
+[12:24:20][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[12:24:21][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[12:24:21][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/download],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:24:21][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/thumbnails.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.thumbnails(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:24:21][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/* || /main/main.do],methods=[POST || GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.himedia.jbshop.main.MainController.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:24:21][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:24:20 KST 2022]; parent: Root WebApplicationContext
+[12:24:21][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:24:20 KST 2022]; parent: Root WebApplicationContext
+[12:24:21][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[12:24:21][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 1080 ms
+[12:50:21][INFO ](AbstractApplicationContext.java:862)-Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:24:20 KST 2022]; parent: Root WebApplicationContext
+[12:50:21][INFO ](AbstractApplicationContext.java:862)-Closing Root WebApplicationContext: startup date [Tue Sep 27 12:24:19 KST 2022]; root of context hierarchy
+[12:50:25][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[12:50:25][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Tue Sep 27 12:50:25 KST 2022]; root of context hierarchy
+[12:50:25][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/mybatis-context.xml]
+[12:50:25][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[12:50:26][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 1147 ms
+[12:50:26][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[12:50:26][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:50:26 KST 2022]; parent: Root WebApplicationContext
+[12:50:26][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[12:50:26][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[12:50:27][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/thumbnails.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.thumbnails(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:50:27][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/download],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:50:27][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/* || /main/main.do],methods=[POST || GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.himedia.jbshop.main.MainController.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:50:27][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:50:26 KST 2022]; parent: Root WebApplicationContext
+[12:50:27][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:50:26 KST 2022]; parent: Root WebApplicationContext
+[12:50:27][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[12:50:27][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 985 ms
+[12:51:08][INFO ](AbstractApplicationContext.java:862)-Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:50:26 KST 2022]; parent: Root WebApplicationContext
+[12:51:08][INFO ](AbstractApplicationContext.java:862)-Closing Root WebApplicationContext: startup date [Tue Sep 27 12:50:25 KST 2022]; root of context hierarchy
+[12:51:11][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[12:51:11][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Tue Sep 27 12:51:11 KST 2022]; root of context hierarchy
+[12:51:11][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/mybatis-context.xml]
+[12:51:12][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[12:51:12][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 1160 ms
+[12:51:12][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[12:51:12][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:51:12 KST 2022]; parent: Root WebApplicationContext
+[12:51:12][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[12:51:13][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[12:51:13][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/thumbnails.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.thumbnails(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:51:13][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/download],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:51:13][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/* || /main/main.do],methods=[POST || GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.himedia.jbshop.main.MainController.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:51:13][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:51:12 KST 2022]; parent: Root WebApplicationContext
+[12:51:13][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:51:12 KST 2022]; parent: Root WebApplicationContext
+[12:51:13][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[12:51:13][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 952 ms
+[12:52:05][INFO ](AbstractApplicationContext.java:862)-Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:51:12 KST 2022]; parent: Root WebApplicationContext
+[12:52:05][INFO ](AbstractApplicationContext.java:862)-Closing Root WebApplicationContext: startup date [Tue Sep 27 12:51:11 KST 2022]; root of context hierarchy
+[12:52:08][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[12:52:09][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Tue Sep 27 12:52:09 KST 2022]; root of context hierarchy
+[12:52:09][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/mybatis-context.xml]
+[12:52:09][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[12:52:10][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 1135 ms
+[12:52:10][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[12:52:10][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:52:10 KST 2022]; parent: Root WebApplicationContext
+[12:52:10][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[12:52:10][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[12:52:10][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/thumbnails.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.thumbnails(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:52:10][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/download],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:52:10][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/* || /main/main.do],methods=[POST || GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.himedia.jbshop.main.MainController.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:52:10][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:52:10 KST 2022]; parent: Root WebApplicationContext
+[12:52:10][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:52:10 KST 2022]; parent: Root WebApplicationContext
+[12:52:10][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[12:52:11][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 990 ms
+[12:52:24][INFO ](AbstractApplicationContext.java:862)-Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:52:10 KST 2022]; parent: Root WebApplicationContext
+[12:52:24][INFO ](AbstractApplicationContext.java:862)-Closing Root WebApplicationContext: startup date [Tue Sep 27 12:52:09 KST 2022]; root of context hierarchy
+[12:53:20][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[12:53:20][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Tue Sep 27 12:53:20 KST 2022]; root of context hierarchy
+[12:53:21][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/mybatis-context.xml]
+[12:53:21][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[12:53:22][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 1905 ms
+[12:53:22][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[12:53:22][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:53:22 KST 2022]; parent: Root WebApplicationContext
+[12:53:22][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[12:53:22][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[12:53:23][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/download],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:53:23][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/thumbnails.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.thumbnails(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:53:23][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/* || /main/main.do],methods=[POST || GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.himedia.jbshop.main.MainController.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:53:23][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:53:22 KST 2022]; parent: Root WebApplicationContext
+[12:53:23][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:53:22 KST 2022]; parent: Root WebApplicationContext
+[12:53:23][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[12:53:23][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 963 ms
+[12:53:33][INFO ](AbstractApplicationContext.java:862)-Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:53:22 KST 2022]; parent: Root WebApplicationContext
+[12:53:33][INFO ](AbstractApplicationContext.java:862)-Closing Root WebApplicationContext: startup date [Tue Sep 27 12:53:20 KST 2022]; root of context hierarchy
+[12:53:35][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[12:53:36][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Tue Sep 27 12:53:36 KST 2022]; root of context hierarchy
+[12:53:36][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/mybatis-context.xml]
+[12:53:36][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[12:53:36][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 958 ms
+[12:53:36][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[12:53:36][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:53:36 KST 2022]; parent: Root WebApplicationContext
+[12:53:36][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[12:53:37][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[12:53:37][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/download],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:53:37][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/thumbnails.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.thumbnails(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:53:37][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/* || /main/main.do],methods=[POST || GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.himedia.jbshop.main.MainController.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[12:53:37][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:53:36 KST 2022]; parent: Root WebApplicationContext
+[12:53:37][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:53:36 KST 2022]; parent: Root WebApplicationContext
+[12:53:37][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[12:53:37][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 955 ms
+[12:56:37][WARN ](DispatcherServlet.java:1120)-No mapping found for HTTP request with URI [/jbshop/goods/goodsList.do] in DispatcherServlet with name 'appServlet'
+[13:07:18][WARN ](DispatcherServlet.java:1120)-No mapping found for HTTP request with URI [/jbshop/goods/keywordSearch.do] in DispatcherServlet with name 'appServlet'
+[13:07:20][WARN ](DispatcherServlet.java:1120)-No mapping found for HTTP request with URI [/jbshop/goods/keywordSearch.do] in DispatcherServlet with name 'appServlet'
+[13:09:12][WARN ](DispatcherServlet.java:1120)-No mapping found for HTTP request with URI [/jbshop/member/loginForm.do] in DispatcherServlet with name 'appServlet'
+[17:53:20][INFO ](AbstractApplicationContext.java:862)-Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 12:53:36 KST 2022]; parent: Root WebApplicationContext
+[17:53:20][INFO ](AbstractApplicationContext.java:862)-Closing Root WebApplicationContext: startup date [Tue Sep 27 12:53:36 KST 2022]; root of context hierarchy
+[17:53:22][INFO ](ContextLoader.java:285)-Root WebApplicationContext: initialization started
+[17:53:22][INFO ](AbstractApplicationContext.java:510)-Refreshing Root WebApplicationContext: startup date [Tue Sep 27 17:53:22 KST 2022]; root of context hierarchy
+[17:53:22][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/mybatis-context.xml]
+[17:53:22][INFO ](PropertiesLoaderSupport.java:172)-Loading properties file from ServletContext resource [/WEB-INF/config/jdbc/jdbc.properties]
+[17:53:22][INFO ](ContextLoader.java:325)-Root WebApplicationContext: initialization completed in 918 ms
+[17:53:23][INFO ](FrameworkServlet.java:484)-FrameworkServlet 'appServlet': initialization started
+[17:53:23][INFO ](AbstractApplicationContext.java:510)-Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 17:53:23 KST 2022]; parent: Root WebApplicationContext
+[17:53:23][INFO ](XmlBeanDefinitionReader.java:317)-Loading XML bean definitions from ServletContext resource [/WEB-INF/spring/appServlet/servlet-context.xml]
+[17:53:23][INFO ](AutowiredAnnotationBeanPostProcessor.java:153)-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[17:53:23][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/download],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.download(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[17:53:23][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/thumbnails.do],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void com.himedia.jbshop.common.FileController.thumbnails(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[17:53:23][INFO ](AbstractHandlerMethodMapping.java:220)-Mapped "{[/* || /main/main.do],methods=[POST || GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.himedia.jbshop.main.MainController.main(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[17:53:23][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 17:53:23 KST 2022]; parent: Root WebApplicationContext
+[17:53:23][INFO ](RequestMappingHandlerAdapter.java:523)-Looking for @ControllerAdvice: WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 17:53:23 KST 2022]; parent: Root WebApplicationContext
+[17:53:23][INFO ](AbstractUrlHandlerMapping.java:315)-Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[17:53:23][INFO ](FrameworkServlet.java:503)-FrameworkServlet 'appServlet': initialization completed in 833 ms
+[17:53:26][INFO ](AbstractApplicationContext.java:862)-Closing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 27 17:53:23 KST 2022]; parent: Root WebApplicationContext
+[17:53:26][INFO ](AbstractApplicationContext.java:862)-Closing Root WebApplicationContext: startup date [Tue Sep 27 17:53:22 KST 2022]; root of context hierarchy
